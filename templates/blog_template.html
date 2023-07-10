@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#128275">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#128275" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7L2KEG5Z7"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M7L2KEG5Z7"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-M7L2KEG5Z7');
+      gtag("config", "G-M7L2KEG5Z7");
     </script>
     <title>About QR</title>
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='sample-images/favicon.ico') }}">
-    <meta name="description" content="Generate colour, image, social media, artistic, customizable QR code easily with one click. Best QR code generator">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static',filename='sample-images/favicon.ico') }}"
+    />
+    <meta
+      name="description"
+      content="Generate colour, image, social media, artistic, customizable QR code easily with one click. Best QR code generator"
+    />
+  </head>
+  <body>
     <div class="heading">
-        <center>
-            <h1>Easy QR Generator</h1>
-            <h2>Generate and scan QR with one click</h2>
-        </center>
-        <!-- <div class="right-div">
+      <center>
+        <h1>Easy QR Generator</h1>
+        <h2>Generate and scan QR with one click</h2>
+      </center>
+      <!-- <div class="right-div">
             <a class="about" href="{{ url_for('blog') }}">About QR</a>&emsp;&emsp;
             <a class="home" href='/'>Home</a>
         </div> -->
     </div>
     <div class="main_content">
-    <h1></h1>
-    <br>
-  
-    <br>
+      <h1></h1>
+      <br />
+
+      <br />
     </div>
     <div class="footer">
-        <h3 class="found">Found bug ?</h3>
-        <p class="contact">Contact us</p>
-        <a href="https://twitter.com/messages/compose?recipient_id=858342629699973121" class="twitter-dm-button" data-screen-name="@furni">@Siddharth1India</a>
+      <h3 class="found">Found bug ?</h3>
+      <p class="contact">Contact us</p>
+      <a
+        href="mailto:mlbrothers2024@gmail.com"
+        class="twitter-dm-button"
+        data-screen-name="@furni"
+        >Mail us</a
+      >
     </div>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/index.css') }}">
-</body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/index.css') }}"
+    />
+  </body>
 </html>
